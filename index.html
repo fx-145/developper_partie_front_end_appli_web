@@ -17,7 +17,7 @@
 <body>
   <!-- Affichage barre de navigation  -->
   <!--<nav class="navbar navbar-light" style="background-color: #062e4b;"> -->
- <nav class="navbar navbar-expand-lg navbar-dark bg-success">
+ <nav id="nav" class="navbar navbar-expand-lg navbar-dark bg-success">
     <div class="container-fluid">
       <!-- Insertion logo dans barre de navigation  -->
       <a class="navbar-brand" href="#">
@@ -25,6 +25,28 @@
           src="C:\Users\Fx\Desktop\Studi\3 Evaluations entrainement\Evaluation_5_Développer_la_partie_front_end d une appli web\images\logo_Charles_Cantin.jpg"
           alt="..." height="144">
       </a>
+      <!-- Insertion menu burger en mode mobile -->
+
+      <div id="mySidenav" class="sidenav">
+        <a id="closeBtn" href="#" class="close">×</a>
+        <ul>
+          <li><a href=".\sheets\accueil.html">Accueil</a></li>
+          <li><a href=".\sheets\galerie.html">Galerie</a></li>
+          <li><a href=".\sheets\tarifs et prestations.html">Tarifs
+            & Prestations</a></li>
+          <li><a href=".\sheets\contact.html">Contact</a></li>
+        </ul>
+      </div>
+      
+      <a href="#" id="openBtn">
+        <span class="burger-icon">
+          <span></span>
+          <span></span>
+          <span></span>
+        </span>
+      </a>
+      
+      
 
 
       <!-- onglets de la barre de navigation, avec bootstrap -->
@@ -33,25 +55,28 @@
           <li class="nav-text">
             <!-- Page Accueil  -->
             <a class="nav-link active" aria-current="page"
-              href="file:///C:\Users\Fx\Desktop\Studi\3 Evaluations entrainement\Evaluation_5_Développer_la_partie_front_end d une appli web\developper_partie_front_end_appli_web\sheets\accueil.html">Accueil</a>
+              href=".\sheets\accueil.html">Accueil</a>
           </li>
           <!-- Page Galerie  -->
           <li class="nav-item">
             <a class="nav-link"
-              href="file:///C:\Users\Fx\Desktop\Studi\3 Evaluations entrainement\Evaluation_5_Développer_la_partie_front_end d une appli web\developper_partie_front_end_appli_web\sheets\galerie.html">Galerie</a>
+              href=".\sheets\galerie.html">Galerie</a>
           </li>
           <!-- Page Tarifs et prestations  -->
           <li class="nav-item">
             <a class="nav-link"
-              href="file:///C:\Users\Fx\Desktop\Studi\3 Evaluations entrainement\Evaluation_5_Développer_la_partie_front_end d une appli web\developper_partie_front_end_appli_web\sheets\tarifs et prestations.html">Tarifs
+              href=".\sheets\tarifs et prestations.html">Tarifs
               & Prestations</a>
           </li>
           <!-- Page Contact  -->
           <li class="nav-item">
             <a class="nav-link"
-              href="file:///C:\Users\Fx\Desktop\Studi\3 Evaluations entrainement\Evaluation_5_Développer_la_partie_front_end d une appli web\developper_partie_front_end_appli_web\sheets\contact.html">Contact</a>
+              href=".\sheets\contact.html">Contact</a>
           </li>
         </ul>
+        
+        
+      
       </div>
     </div>
   </nav>
@@ -71,13 +96,11 @@
 
 
 
+
+
+    
+
   </div>
-
-
-
-
-
-
 
 
 
@@ -90,5 +113,6 @@
     src="C:\Users\Fx\Desktop\Studi\3 Evaluations entrainement\Evaluation_5_Développer_la_partie_front_end d une appli web\developper_partie_front_end_appli_web\js\script.js"></script>
 
 </body>
+  
 
 </html>

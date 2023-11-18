@@ -7,3 +7,6 @@ Développer la partie front end d'une application web
 4. Création des pages index.html, accueil.html, galerie.html, tarifs et prestations.html et contact.html.
 5. Préparation de la maquette: zoning, wireframe et mockup.
 6. Création du Zoning version desktop et mobile: toutes pages
+7. Creation du Wireframe version desktop et mobile toutes pages
+8. Creation du Mockup version desktop et mobile toutes pages
+9. Insertion d un menu burger en version mobile

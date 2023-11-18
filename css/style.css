@@ -18,3 +18,28 @@
     justify-content: center;
     align-items: center;
 }
+
+/* Insertion menu burger (appelé Sidenav) */
+li {
+  list-style: none;
+  }
+
+  a:hover{
+    color: blue;
+  }
+  
+nav {
+background: skyblue;
+display: flex;
+justify-content: space-between;
+}
+
+/* Faire apparaitre le menu burger dès que l'écran passe en mode mobile*/
+@media (max-width: 650px){
+  #icons {
+    display: block;
+  }
+  #icons :before {
+    content: "\2630"
+  }
+}
